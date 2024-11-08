@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 4px 2px -2px lightgray;
+    background-color: white;
+    height: 100px;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.list-navbar {
+    list-style: none;
+    display: flex; 
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.list-navbar li {
+    margin-left: 30px;
+}
+
+.list-navbar button{
+    border: none;
+    background-color: white;
+}
+
+.logo-navbar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+.logo-navbar img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the image fits within the container while maintaining its aspect ratio */
+}
+
+.list-navbar p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+
+.profile-navbar {
+    margin-right: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.profile-navbar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.nama-web:hover {
+    color: #5e6fe0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.namaKelas:hover {
+    color: #5e6fe0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.kembalikesebelumnya:hover {
+    fill: #5e6fe0;
+    border-radius: 50%;
+    background-color: #c8c7c7;
+}
+
+.jenis{
+    width: 100px;
+}

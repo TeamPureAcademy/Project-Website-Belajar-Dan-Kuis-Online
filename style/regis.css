@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 160px;
+    margin-right: 1rem;
+    
+}
+
+.content .sec_mid form table tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.input input{
+    height: 50px;
+    border-radius: 17px;
+    width: 250px;
+    border: 3px solid #49688D;
+    text-align: center;   
+}
+.input input:focus{
+    height: 50px;
+    border-radius: 17px;
+    width: 250px;
+    border: 3px solid #49688D;
+    text-align: center;   
+}
+
+.input input[type="text"]::placeholder{
+    text-align: center;
+}
+
+.select select{
+    margin-top: 5px;
+    height: 50px;
+    border-radius: 17px;
+    width: 250px;
+    border: 3px solid #49688D;
+    text-align: center;   
+}
+.select select:focus{
+    height: 50px;
+    border-radius: 17px;
+    width: 250px;
+    border: 3px solid #49688D;
+    text-align: center;   
+}
+
+.avatar{
+    color:black;
+    margin: 3px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+
+}
+
+.btn a button{
+    height: 40px;
+    border-radius: 20px;
+    width: 120px;
+    border: 3px solid #49688D;
+    color: aliceblue;
+    background-color: #49688D;
+    box-shadow: 10px rgb(0, 0, 0.1);
+}
+
+.left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+img {
+    width: 400px; 
+    height: auto;
+    margin-right: 5rem;
+}
+
+.icon-container {
+    margin-top: 5px;
+    margin-right: 10px; 
+    margin-left: 35px;
+    width: 50px; 
+    height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 60%; 
+    background-color: #FF9494;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.icon-grup {
+    width: 24px;
+    height: 24px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding-left: 3px;
+    padding-top: 2px;
+    
+}
+
+.avatar{
+    margin-left: 20px;
+}
+
+.keteranganfile{
+    margin-right: 100px;
+}
+
+.custom-file-upload {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.custom-file-upload:hover {
+    background-color: #ccc;
+}
+
+.keteranganFile{
+    margin-bottom: 2px;
+}
+
+#file-upload {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+#file-chosen {
+    margin-left: 10px;
+    font-style: italic;
+}

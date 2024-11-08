@@ -1,0 +1,85 @@
+@media only screen and (min-width: 619px) and (max-width: 1024px) {
+    .side-bar {
+        width: 100%; /* Full width for sidebar on smaller screens */
+        height: 20; /* Adjust height */
+        margin: 10px auto; /* Add margin */
+    }
+
+    .kelas {
+        height: auto; /* Allow height to adjust */
+        width: 70%; /* Full width for classes */
+        flex-direction: column; 
+        margin: 20px auto;
+
+    }
+
+    .kelas-box {
+        width: 90%; /* Use percentage for responsiveness */
+        margin: 10px ; /* Center the boxes */
+    }
+
+    .modul-pembelajaran {
+        width: 90%;
+        margin: 10px 10%; 
+        margin-left: 20px;
+        margin-top: 20px;
+       
+    }
+    .menu-tambahan{
+        left: 50%;
+        top: 22%;
+
+    }
+    .kelasAnda p{
+        font-size:larger;
+    }
+
+    .kelasmuu p{
+        font-size: x-small;
+    }
+}
+
+/* Responsive styling for mobile view */
+@media (max-width: 618px) {
+
+    .kelas {
+        height: auto; /* Allow height to adjust */
+        width: 100%; /* Full width for classes */
+        flex-direction: column; /* Stack class boxes */
+    }
+
+    .kelas-box {
+        width: 90%; /* Use percentage for responsiveness */
+        margin: 10px auto; /* Center the boxes */
+    }
+
+    .modul-pembelajaran {
+        width: 90%;
+        margin: 20px auto; 
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .menu-tambahan{
+        left: 40%;
+        top: 22%;
+    }
+
+    .kelasAnda p{
+        font-size: medium;
+    }
+
+    .kelasmuu p{
+        font-size: xx-small;
+    }
+    .icon-kelasS svg {
+        width: 20px;  
+        height: 20px; 
+    }
+    
+    .profile-navbar{
+        display: none;
+    }
+   
+      
+}

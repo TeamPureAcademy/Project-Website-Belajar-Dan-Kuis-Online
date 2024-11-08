@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box; /* Ensures padding/borders are included in width/height */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .boxnilai {
+    width: 40%;
+    height: 90%;
+    background-color: #F3EBE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contentnilai {
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+    height: 490px;
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .contentnilai::-webkit-scrollbar {
+    display: none;
+    justify-content: center;
+  }
+  
+  .kontensoal {
+    width: 100%;
+    margin: 20px auto;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textkonten {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #F3EBE5;
+    justify-content: space-between;
+  }
+  
+  .pilihanabcde {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pilihan {
+    background-color: white;
+    border: 1px solid #49688D;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 70%;
+    height: 30px;
+    margin: 10px;
+    overflow-wrap: break-word; /* Allows text to wrap within the container */
+    word-break: break-all;
+  }
+  
+  .pilihan p {
+    margin-left: 10px;
+    color: #49688D;
+  }
+  
+  .jawabanuser {
+    background-color: #FF0000;
+  }
+  
+  .jawabanbenar {
+    background-color: #61E002;
+  }
+  
+  .jawabanbenar p, .jawabanuser p {
+    color: black;
+    margin: 0; /* Remove any extra margin */
+  }
+  
+  .nilaiakhir {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    right: 30%;
+    justify-content: center;
+  }
+  
+  .nilaiakhir h4 {
+    margin-left: 20px; 
+  }
+  
+  

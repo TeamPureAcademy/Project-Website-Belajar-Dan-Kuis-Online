@@ -1,0 +1,36 @@
+@media only screen and (min-width: 619px) and (max-width: 1024px) {
+
+    .modul-guru{
+        width:auto;
+        margin-left: 100px;
+        padding-right: 50px;
+
+    }
+
+}
+
+/* Responsive styling for mobile view */
+@media (max-width: 619px) {
+
+    .profile-navbar{
+        display: none;
+    }
+
+    .modul-guru{
+        width:143px;
+        margin-left: 60px;
+        padding-left: 40px;
+    }
+    .modul-guru h1{
+        font-size:14px;
+    }
+    .kelasAnda p{
+        margin-bottom: 20px;
+    }
+   
+    .konten-qm{
+        width: 450px;
+        height: 260px;
+    }
+      
+}  

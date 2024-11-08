@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.username {
+  font-weight: bold;
+  margin: 0;
+  margin-right: 40rem;
+  margin-top: 3rem;
+}
+
+.review-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.star-rating {
+  display: flex;
+  cursor: pointer;
+}
+
+.star-rating span {
+  font-size: 2.5em;
+  cursor: pointer;
+  color: #ddd;
+}
+.star-rating span.selected {
+  color: black;
+}
+
+.review-input {
+  width: 65%;
+  margin-top: 20px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  height: 60px;
+  margin-top: 3rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.send-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  margin-top: 1.8rem;
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  color: #333;
+}
+
+.right-image {
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.illustration {
+  max-width: 100px;
+  height: auto;
+}
+
+.right-image img {
+  max-width: 400px;
+  margin-left: 40rem;
+}
+
+.copyright {
+  text-align: center;
+  margin-left: 40%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .review-container {
+    width: 100%;
+  }
+
+  .username {
+    margin-right: 0;
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .review-input {
+    width: 100%;
+  }
+
+  .right-image img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .copyright {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+  }
+
+  .username {
+    font-size: 0.9rem;
+  }
+
+  .star-rating span {
+    font-size: 2rem;
+  }
+
+  .input-field {
+    height: 50px;
+    font-size: 0.9em;
+  }
+
+  .send-button {
+    font-size: 1em;
+  }
+
+  .right-image {
+    display: none;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 0;
+  }
+}

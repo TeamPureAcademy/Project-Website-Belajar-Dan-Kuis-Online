@@ -1,0 +1,217 @@
+@media only screen and (min-width: 619px) and (max-width: 1024px) {
+
+    .nxt2{
+        display: flex;
+    }
+    .side-bar {
+        width: 80px; /* Sedikit lebih lebar dibandingkan versi mobile */
+        padding: 10px;
+    }
+    body {
+        overflow-x: hidden; /* Mencegah scroll horizontal */
+    }
+
+    .konten-quiz {
+        display: none;
+    }
+
+    .image-menu img {
+        width: 30px; /* Ukuran logo lebih besar untuk tablet */
+    }
+
+    .menu-utama {
+        gap: 20px; /* Jarak antar ikon di sidebar */
+    }
+
+    .bar-menu svg,
+    .setting svg {
+        width: 30px; /* Ukuran ikon lebih besar */
+        height: 30px;
+    }
+
+    /* Koridor Kelas */
+    .koridor-kelas {
+        width: 90%; /* Lebih besar dibandingkan mobile */
+        padding: 15px; /* Padding lebih besar agar terlihat lebih proporsional */
+        margin: 10px 0; /* Sedikit jarak vertikal antara elemen */
+    }
+
+    .koridor-info h2 {
+        font-size: 1.5rem; /* Ukuran font lebih besar */
+    }
+
+    .koridor-info p {
+        font-size: 1.2rem;
+    }
+
+    .konten-koridor{
+        display: flex  ;
+        height: auto;
+        margin-top: 10px;
+        margin-left:auto;
+        padding-right: 600px;
+    
+    }
+ 
+
+    .modul {
+        display: flex;
+        height: auto; 
+        border-radius: 20px;
+        width: 400%; /* Lebar yang sesuai untuk layar kecil */
+        max-width: 422px; /* Membatasi ukuran maksimum */
+        height: 60px;
+        margin: 2 auto; /* Menengahkannya secara horizontal */
+        padding-left: 60px;
+        margin-left: -98px;
+        height:70px;
+        
+    }
+
+    .modul h1 {
+        font-size: 1.5rem; /* Ukuran font lebih besar */
+        font-size: 1.2rem;
+        text-align: center; 
+        margin-left: 10px; 
+        padding-right: 80px;
+    }
+
+    /* Tombol Tambah Modul */
+    .tambahmoduls {
+
+        margin-left: -40px; /* Kembali ke posisi semula */
+    }
+
+    .tambahmoduls svg {
+        width: 60px; /* Ukuran tombol tambah modul lebih besar */
+        height: 60px;
+    }
+}
+
+/* Untuk layar kecil (ponsel) */
+@media only screen and (max-width: 600px) and (max-width: 619px) {
+
+    * {
+        box-sizing: border-box; 
+        margin: 0; 
+        padding: 0;
+    }
+    body {
+        overflow-x: hidden; /* Mencegah scroll horizontal */
+    }
+    .nxt2{
+        display: flex;
+    }
+    
+    .side-bar {
+        width: 60px;
+        padding: 5px;
+    }
+
+   
+    .menu-utama {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Gambar menu lebih kecil untuk menjaga ruang */
+    .image-menu img {
+        width: 40px;
+        height: auto;
+    }
+
+    /* Ikon bar menu disesuaikan agar lebih kecil */
+    .bar-menu svg, 
+    .setting svg {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /* Kartu kelas lebih lebar agar mudah diakses di layar kecil */
+    .koridor-kelas {
+        width: 95%; 
+        padding: 10px;
+        margin: 1px 0;
+    }
+
+    /* Ukuran teks di dalam koridor lebih kompak untuk layar kecil */
+    .koridor-info h2 {
+        font-size: 1.2rem; /* Ukuran font lebih kecil */
+    }
+
+    .koridor-info p {
+        font-size: 1rem;
+    }
+
+    /* Penyesuaian pada icon */
+    .icongenre svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Konten Quiz */
+    .konten-quiz {
+        display: none;
+    }
+
+
+
+    /* Modul Guru */
+    .modul-guru {
+        width: 100%; /* Lebar penuh untuk modul */
+        margin-bottom: 20px;
+    }
+
+    /* Memastikan modul berada di tengah */
+    .modul {
+        display: flex;
+        height: auto; 
+        border-radius: 20px;
+        width: 300%; /* Lebar yang sesuai untuk layar kecil */
+        max-width: 372px; /* Membatasi ukuran maksimum */
+        height: 60px;
+        margin: 0 auto; /* Menengahkannya secara horizontal */
+        padding-left: 60px;
+        margin-left: -98px;
+        height:70px;
+    }
+    
+    h1 {
+        font-size: 1em; /* Mengatur ukuran font untuk teks judul */
+        text-align: center; /* Meratakan teks ke tengah */
+    }
+
+
+    .modul h1 {
+        font-size: 1.2rem;
+        text-align: center; 
+        margin-left: 10px; 
+        padding-right: 60px;
+    }
+
+    .boder-modul svg {
+        width: 30px; 
+        height: 30px;
+    }
+
+
+    .bi-book {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .tambahmoduls {
+        flex: 0 1 auto; 
+        margin-left: -40px;
+    }
+    
+    .tambahmoduls svg {
+        width: 40px;
+        height: 40px;
+    }
+}

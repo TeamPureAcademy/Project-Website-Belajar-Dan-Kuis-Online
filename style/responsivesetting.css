@@ -1,0 +1,229 @@
+/* Default style */
+.konten-setting {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.boxsetting {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Added shadow */
+    overflow-y: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.konten-streak {
+    margin-top: 20px;
+    display: none;
+    flex-direction: column;
+    height: 90%;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.konten-settings {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    width: 900px;
+    margin-left: 100px;
+}
+
+.konten-setting img {
+    height: 400px;
+    width: 400px;
+    margin-top: 300px;
+}
+
+.boxsizing {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.boxsizing img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 0px;
+}
+
+.buttonfoto {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #79828e;
+    background-color: white;
+    color: #79828e;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonfoto:hover {
+    color: black;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.ubahsetting {
+    margin-left: 20px;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.gantisetting {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.gantisetting p {
+    color: #79828e;
+}
+
+
+.gantip {
+    margin-left: 30px;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hapus{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.gantisetting button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVE STYLES */
+
+/* For Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .konten-setting {
+        width: 80%; /* Lebar lebih kecil untuk tablet */
+        margin-top: 50px;
+    }
+
+    .boxsetting {
+        width: 100%;
+        flex-direction: column; /* Ganti menjadi kolom pada tablet */
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none; /* Hilangkan bayangan */
+        height: auto;
+    }
+
+    .konten-settings {
+        width: 80%;
+        margin-left: 0;
+        padding: 0 20px; /* Tambahkan padding sedikit */
+    }
+
+    .konten-setting img {
+        height: 300px;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .buttonfoto {
+        width: 200px;
+        height: 45px;
+    }
+
+    .ubahsetting {
+        width: 60%;
+        margin-left: 30px;
+    }
+}
+
+/* For Mobile */
+@media screen and (max-width: 768px) {
+    .konten-setting {
+        width: 100%; /* Lebar penuh untuk mobile */
+        
+    }
+
+    .boxsetting {
+        width: 100%;
+        flex-direction: column; /* Kolom pada mobile */
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        height: auto;
+        box-shadow: none; /* Hilangkan bayangan */
+    }
+
+    .konten-settings {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 10px; /* Padding lebih sedikit pada mobile */
+    }
+
+    .konten-setting img {
+        height: 250px;
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .buttonfoto {
+        width: 200px;
+        height: 45px;
+    }
+
+    .ubahsetting {
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .gantisetting {
+        flex-direction: column; /* Sesuaikan button dan text secara vertikal */
+        align-items: center; /* Agar lebih rapat */
+        gap: 2px;
+        margin-left: 30px;
+    }
+
+    .gantisetting p {
+        margin-right: 10px; /* Margin lebih kecil pada mobile */
+    }
+
+    .gantisetting button {
+        width: 100%;
+        
+    }
+}

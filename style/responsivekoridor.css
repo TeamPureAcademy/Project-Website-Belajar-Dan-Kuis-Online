@@ -1,0 +1,560 @@
+/* Untuk layar kecil (ponsel) */
+@media only screen and (max-width: 600px) {
+
+    * {
+        box-sizing: border-box; 
+        margin: 0; 
+        padding: 0;
+    }
+    body {
+        overflow-x: hidden; /* Mencegah scroll horizontal */
+    }
+    .nxt2{
+        display: flex;
+    }
+    .konten-home .text-area {
+        width: 300px;
+    }
+    .konten-home{
+        row-gap: 15px;
+    }
+    .kategori{
+        width: 360px;
+    }
+    .kategori-semua .logo{
+        margin-left:8px;
+    }
+    .kategori .kategori-kelas .logo{
+        margin-left: 6px;
+    }
+    .buatkelasbaru{
+        width: 290px;
+    }
+    .masukkelasbaru{
+        width: 290px;
+    }
+    .kelas{
+        border: none;
+        width: 320px;
+    }
+    .kelas-box {
+        width: 300px;
+     }
+     
+     .semua{
+        margin-left: 5px;
+     }
+
+    .side-bar {
+        width: 60px;
+        padding: 5px;
+        overflow: hidden; /* Pastikan konten tidak meluap */
+    }
+    .menu-utama {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Gambar menu lebih kecil untuk menjaga ruang */
+    .image-menu img {
+        width: 40px;
+        height: auto;
+    }
+
+    /* Ikon bar menu disesuaikan agar lebih kecil */
+    .bar-menu svg, 
+    .setting svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Tata letak koridor kelas pada bagian utama lebih baik di layar kecil */
+    .koridorkelas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%; 
+    }
+
+    /* Kartu kelas lebih lebar agar mudah diakses di layar kecil */
+    .koridor-kelas {
+        width: 95%; 
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Ukuran teks di dalam koridor lebih kompak untuk layar kecil */
+    .koridor-info h2 {
+        font-size: 1.2rem; /* Ukuran font lebih kecil */
+    }
+
+    .koridor-info p {
+        font-size: 1rem;
+    }
+
+    /* Penyesuaian pada icon */
+    .icongenre svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Konten Quiz */
+    .konten-quiz {
+        display: flex;
+        flex-direction: column;
+        background-color: #F0F0F0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        border-radius: 15px;
+        width: 90%; 
+        max-width: 300px; 
+        height: 160px; 
+        margin: 20px auto; /* Tengah pada ponsel */
+    }
+
+    /* Konten Koridor */
+    .konten-koridor {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 5px; 
+        
+    }
+
+    /* Modul Guru */
+    .modul-guru {
+        width: 100%; /* Lebar penuh untuk modul */
+        margin-bottom: 20px;
+    }
+
+    /* Memastikan modul berada di tengah */
+    .modul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F0F0F0;
+        border-radius: 20px;
+        width: 90%; /* Lebar yang sesuai untuk layar kecil */
+        max-width: 300px; /* Membatasi ukuran maksimum */
+        height: 60px;
+        margin: 0 auto; /* Menengahkannya secara horizontal */
+        
+    }
+    .nxt2{
+        display: none;
+    }
+
+    .modul h1 {
+        font-size: 1.2rem;
+        text-align: center; 
+        margin-left: 10px; 
+        padding-right: 60px;
+    }
+
+    .boder-modul svg {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .bi-book {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .tambahmoduls {
+        margin-top: 380px;
+        flex: 0 1 auto; 
+        margin-left: -40px;
+    }
+
+    .tambahmoduls svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+/* Untuk layar tablet  */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    * {
+        box-sizing: border-box; 
+        margin: 0; 
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden; /* Mencegah scroll horizontal */
+    }
+    .nxt2{
+        display: flex;
+    }
+
+    .konten-home .text-area {
+        width: 550px;
+    }
+
+    .konten-home{
+        row-gap: 15px;
+    }
+
+    .kategori{
+        width: 625px;
+    }
+
+    .kategori-semua .logo{
+        margin-left:8px;
+    }
+    .kategori .kategori-kelas .logo{
+        margin-left: 6px;
+    }
+    .buatkelasbaru{
+        width: 290px;
+    }
+    .masukkelasbaru{
+        width: 290px;
+    }
+    .nxt2{
+        display: none;
+    }
+    .kelas{
+        border: none;
+        width: 650px;
+    }
+    .kelas-box {
+        width: 670px;
+     }
+     
+     .semua{
+        margin-left: 5px;
+     }
+
+    .side-bar {
+        width: 60px;
+        padding: 5px;
+        overflow: hidden; /* Pastikan konten tidak meluap */
+    }
+   
+    .menu-utama {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Gambar menu lebih kecil untuk menjaga ruang */
+    .image-menu img {
+        width: 40px;
+        height: auto;
+    }
+
+    /* Ikon bar menu disesuaikan agar lebih kecil */
+    .bar-menu svg, 
+    .setting svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Tata letak koridor kelas pada bagian utama lebih baik di layar kecil */
+    .koridorkelas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%; 
+    }
+
+    /* Kartu kelas lebih lebar agar mudah diakses di layar kecil */
+    .koridor-kelas {
+        width: 95%; 
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Ukuran teks di dalam koridor lebih kompak untuk layar kecil */
+    .koridor-info h2 {
+        font-size: 1.2rem; /* Ukuran font lebih kecil */
+    }
+
+    .koridor-info p {
+        font-size: 1rem;
+    }
+
+    /* Penyesuaian pada icon */
+    .icongenre svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Konten Quiz */
+    .konten-quiz {
+        display: flex;
+        flex-direction: column;
+        background-color: #F0F0F0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        border-radius: 15px;
+        width: 90%; 
+        max-width: 300px; 
+        height: 160px; 
+        margin: 20px auto; /* Tengah pada ponsel */
+    }
+
+    /* Konten Koridor */
+    .konten-koridor {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 5px; 
+        
+    }
+
+    /* Modul Guru */
+    .modul-guru {
+        width: 100%; /* Lebar penuh untuk modul */
+        margin-bottom: 20px;
+    }
+
+    /* Memastikan modul berada di tengah */
+    .modul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F0F0F0;
+        border-radius: 20px;
+        width: 90%; /* Lebar yang sesuai untuk layar kecil */
+        max-width: 300px; /* Membatasi ukuran maksimum */
+        height: 60px;
+        margin: 0 auto; /* Menengahkannya secara horizontal */
+        
+    }
+
+    .modul h1 {
+        font-size: 1.2rem;
+        text-align: center; 
+        margin-left: 10px; 
+        padding-right: 60px;
+    }
+
+    .boder-modul svg {
+        width: 30px; 
+        height: 30px;
+    }
+    .bi-book {
+        width: 30px; 
+        height: 30px;
+    }
+    .tambahmoduls {
+        margin-top: 380px;
+        flex: 0 1 auto; 
+        margin-left: -40px;
+    }
+    .tambahmoduls svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Untuk layar dengan lebar antara 768px hingga 1200px */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+
+    * {
+        box-sizing: border-box; 
+        margin: 0; 
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden; /* Mencegah scroll horizontal */
+    }
+
+    .nxt2{
+        display: flex;
+    }
+
+    /* Menyesuaikan lebar area teks di konten utama */
+    .konten-home .text-area {
+        width: 600px;
+    }
+
+    /* Mengatur jarak antar elemen di konten home */
+    .konten-home {
+        row-gap: 20px;
+    }
+
+    /* Kategori lebih lebar untuk menyesuaikan dengan layar */
+    .kategori {
+        width: 700px;
+    }
+
+    /* Margin logo kategori */
+    .kategori-semua .logo {
+        margin-left: 10px;
+    }
+
+    .kategori .kategori-kelas .logo {
+        margin-left: 8px;
+    }
+
+    /* Ukuran tombol buat dan masuk kelas baru */
+    .buatkelasbaru, 
+    .masukkelasbaru {
+        width: 290px;
+    }
+
+    /* Mengatur lebar elemen kelas */
+    .kelas {
+        border: none;
+        width: 700px;
+    }
+
+    .kelas-box {
+        width: 750px;
+    }
+    .nxt2{
+        display: none;
+    }
+
+    /* Mengatur margin elemen dengan kelas "semua" */
+    .semua {
+        margin-left: 10px;
+    }
+
+    /* Sidebar lebih lebar dengan padding kecil */
+    .side-bar {
+        width: 70px;
+        padding: 10px;
+        overflow: hidden; /* Pastikan konten tidak meluap */
+    }
+
+    /* Menu utama dengan tata letak vertikal dan spasi antar item */
+    .menu-utama {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Menyesuaikan ukuran gambar di menu */
+    .image-menu img {
+        width: 50px;
+        height: auto;
+    }
+
+    /* Ukuran ikon bar-menu dan setting */
+    .bar-menu svg, 
+    .setting svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Tata letak koridor kelas dengan lebar 95% */
+    .koridorkelas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%; 
+    }
+
+    /* Kartu kelas lebih lebar dan memiliki padding */
+    .koridor-kelas {
+        width: 90%; 
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    /* Ukuran teks di dalam koridor */
+    .koridor-info h2 {
+        font-size: 1.4rem; /* Sedikit lebih besar */
+    }
+
+    .koridor-info p {
+        font-size: 1.1rem;
+    }
+
+    /* Ukuran ikon genre */
+    .icongenre svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Konten Quiz */
+    .konten-quiz {
+        display: flex;
+        flex-direction: column;
+        background-color: #F0F0F0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        border-radius: 15px;
+        width: 80%; 
+        max-width: 400px; 
+        height: 180px; 
+        margin: 30px auto; /* Tengah pada layar medium */
+    }
+
+    /* Konten Koridor */
+    .konten-koridor {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 10px; 
+    }
+
+    /* Modul Guru */
+    .modul-guru {
+        width: 100%; /* Lebar penuh untuk modul */
+        margin-bottom: 25px;
+    }
+
+    /* Memastikan modul berada di tengah */
+    .modul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F0F0F0;
+        border-radius: 20px;
+        width: 90%; /* Lebar yang sesuai untuk layar medium */
+        max-width: 400px; /* Membatasi ukuran maksimum */
+        height: 70px;
+        margin: 0 auto; /* Menengahkannya secara horizontal */
+    }
+
+    .modul h1 {
+        font-size: 1.4rem;
+        text-align: center; 
+        margin-left: 15px; 
+        padding-right: 50px;
+    }
+
+    .boder-modul svg {
+        width: 35px; 
+        height: 35px;
+    }
+
+    .bi-book {
+        width: 35px; 
+        height: 35px;
+    }
+
+    .tambahmoduls {
+        margin-top: 400px;
+        flex: 0 1 auto; 
+        margin-left: -30px;
+    }
+
+    .tambahmoduls svg {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .side-bar {
+        width: 60px;
+    }
+    
+    .konten-home {
+        width: 80%;
+    }
+}

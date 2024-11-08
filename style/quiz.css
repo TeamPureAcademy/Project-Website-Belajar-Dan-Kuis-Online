@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: left;
+    background-color: #f2f2f2;
+}
+
+.side-siswa{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    background-color: white;
+}
+.konten-jawaban{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    background-color: white;
+}
+
+.profile{
+    width: 70%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: 1px solid #bebebe;
+    border-left:none ;
+}
+
+.nilai{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #bebebe;
+    border-right: none;
+}
+.fotoprofile {
+    height: 30px; 
+    width: 30px; 
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    border: 2px solid #bebebe;
+    display: inline-block;
+}
+
+.fotoprofile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.side-siswa p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+.nilaisemua{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.nilaisemua svg{
+    margin-right: 10px;
+}
+
+.konten-nilai{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.judul-quiz{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #ffffff;
+    border-bottom: 1px solid #bebebe;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: space-between;
+}
+.jumlah-jawaban{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height:100px ;
+    margin-left:5% ;
+}
+.jumlah-jawaban h1{
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.jumlah-jawaban p{
+    font-size: 20px;
+}
+
+.jawaban-quiz{
+    border: 1px solid #bebebe;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 80%;
+    flex-direction: column;
+}
+
+.infosoal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding-left: 10px;
+}
+
+.infosoal p{
+    margin-right: 10px;
+}
+
+.jawaban-quiz p{
+    margin-left: 10px;
+}
+
+
+.abcde{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10% ;
+}
+
+.pilihan{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid #000000;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(255, 55, 55);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;    
+}
+.abcdejawaban{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-right: 1px solid black;
+}
+
+.jumlahjawaban{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.jawabannya{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.benar{
+    background-color: rgb(27, 216, 27);
+}
+
+.kuiskosong{
+    margin-left: 5%;
+}
+
+.tambahkuis{
+    position: absolute;
+    top: 85%;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    left: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tambahkuis button{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    background-color: #C8DCF0;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tambahkuis button:hover{
+    background-color: #7DB2F7;
+    color: white;
+}
+
+.judul-quiz button{
+    background-color: white;
+    font-size: 30px;
+    border: none;
+}
+
+
+.judul-quiz button:hover{
+    cursor: pointer;
+}
+
+
+.menuhapus{
+    display: none;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 19%;
+    left: 78%;
+    max-width: 60%;
+    background-color: #EBEBEB;
+    color: #333;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    border-top-right-radius:0px ;
+    align-items: first baseline;
+    justify-content: left;
+    flex-direction: column;
+}
+.menuhapus:after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: -7px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #EBEBEB;
+    border-bottom: 10px solid transparent;
+}  
+
+
+.hapus-quiz{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hapus-quiz:hover{
+    cursor: pointer;
+}

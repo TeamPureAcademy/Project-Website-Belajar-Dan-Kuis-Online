@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.verification-container {
+    margin-top: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+/* Gmail Logo Styling */
+.gmail-logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+/* Title Styling */
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Description Text */
+.description {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+.code-input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #d93025; /* Gmail red color */
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Placeholder Text */
+.code-input::placeholder {
+    color: #ccc;
+}
+
+/* Resend Text Styling */
+.resend {
+    font-size: 14px;
+    color: #666;
+}
+
+.resend a {
+    color: #1a73e8; /* Gmail blue link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resend a:hover {
+    text-decoration: underline;
+}
