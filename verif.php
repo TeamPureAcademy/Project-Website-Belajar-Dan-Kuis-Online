@@ -37,7 +37,7 @@ if(isset($_POST['email'])){
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'timpureacademy@gmail.com';
-        $mail->Password = 'robo wrmt yfec woyh';
+        $mail->Password = '';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
