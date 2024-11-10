@@ -47,8 +47,7 @@ function tambahPertanyaan() {
                 <input type="text" placeholder="Jawaban E" class="input-jawaban" name="e-pilihanganda${questionCount}">
 
             </div>
-            
-        
+              
         </div>
        
     `;

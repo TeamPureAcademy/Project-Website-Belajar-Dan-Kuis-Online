@@ -36,12 +36,12 @@ if(isset($_POST['email'])){
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'botmailrehan@gmail.com';
-        $mail->Password = 'nkhs xstj klcr egit';
+        $mail->Username = 'timpureacademy@gmail.com';
+        $mail->Password = 'robo wrmt yfec woyh';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
-        $mail->setFrom('botmailrehan@gmail.com');
+        $mail->setFrom('timpureacademy@gmail.com');
         $mail->addAddress($email);
 
         $mail->isHTML(true);
@@ -57,26 +57,7 @@ if(isset($_POST['email'])){
         <script type='text/javascript'>
             document.getElementById('redirectForm').submit();
         </script>";
-    } else {
-        $mail = new PHPMailer(true);
-        $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'botmailrehan@gmail.com';
-        $mail->Password = 'nkhs xstj klcr egit';
-        $mail->SMTPSecure = 'ssl';
-        $mail->Port = 465;
-
-        $mail->setFrom('botmailrehan@gmail.com');
-        $mail->addAddress($email);
-
-        $mail->isHTML(true);
-        $mail->Subject = 'User Not Registered';
-        $mail->Body = "The email address you provided is not registered in our system.";
-
-        $mail->send();
-        
-    }
+    } 
 
     $stmt->close();
 }

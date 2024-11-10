@@ -30,7 +30,7 @@
     <div class="content">
       <div class="text">
         <h1>Ayo Kembangkan Keahlian Diri Kamu</h1>
-        <a href="registrasi.php"><button>Daftar Sekarang →</button></a>
+        <a href="registrasi.php"><button>Gabung Sekarang →</button></a>
       </div>
       <div class="image">
         <img src="image/gambar1.jpg" alt="ilustrasi1" width="500" height="500" />
@@ -304,25 +304,25 @@
         <div class="team-member">
           <div class="boxtim">
 
-            <img src="image/zaki.jpeg" alt="foto" width="100" height="100" />
+            <img src="image/ocha.png" alt="foto" width="100" height="100" />
           </div>
-          <div class="name">Muhammad Dzacky</div>
+          <div class="name">Annisa Rosaliyanti</div>
           <div class="role anggota">Anggota</div>
         </div>
         <div class="team-member">
           <div class="boxtim">
 
-            <img src="image/sandi.jpeg" alt="foto" width="100" height="100" />
+            <img src="image/orangtampan.png" alt="foto" width="100" height="100" />
           </div>
-          <div class="name">Muhammad Shandy Alfarizal</div>
+          <div class="name">Putri Tendry Z</div>
           <div class="role anggota">Anggota</div>
         </div>
         <div class="team-member-hitam">
           <div class="boxtim">
 
-            <img src="image/ucup.jpeg" alt="foto" width="100" height="100" />
+            <img src="image/rifai.jpeg" alt="foto" width="100" height="100" />
           </div>
-          <div class="name">Ahmad Yusuf Saputra</div>
+          <div class="name">Alif Rifa'i</div>
           <div class="role anggota">Anggota</div>
         </div>
         <div class="decorative-circle"></div>

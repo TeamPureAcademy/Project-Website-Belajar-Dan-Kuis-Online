@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style/regis.css">
-    <title>register</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="content">
             
         <div class="sec_mid">
             <form action="tambah.php" method="post" enctype="multipart/form-data">
-                <table border = "0  ">
+                <table border = "0">
                     <tr>
                         <td>
                             <div class="icon-container">
@@ -56,6 +57,7 @@
                         <td>
                             <div class="input">
                                 <input type="password" id="password" name="password" placeholder="Kata Sandi" required>
+                                <i class="bi bi-eye-slash" id="togglePassword"></i>
                             </div>
                         </td>
                     </tr>
@@ -70,16 +72,18 @@
                             </div>
                         </td>
                         <td>
+                            <td>
                             <div class="input">
                                 <input type="password" id="password_confirm" name="password_confirm" placeholder="Konfirmasi Kata Sandi" required>
+                                <i class="bi bi-eye-slash" id="togglePasswordConfirm" \></i>
                             </div>
                         </td>
-                    </tr>
+                        </td>
                     </tr>
                     <tr>
                         <td>
                             <div class="icon-container">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon-group viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon-group" viewBox="0 0 16 16">
                                     <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
                                 </svg>
                             </div>
@@ -117,23 +121,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2" style="text-align: center;">
-                            <span id="password-error" style="color: red; display: none;">Passwords do not match!</span>
-                        </td>
-                    </tr>
-                    <tr>
                         <td>
                             <br>
                         </td>
-                        
+
                         <td>
                             <div class="btn">
                                 <a href="#register"><button>Daftar</button></a>
                             </div>
                         </td>
                     </tr>
-                    
-                    
         
                 </table>
                
@@ -142,41 +139,7 @@
         </div>
             <img class="right" src="image/gambar.png" alt="logo kanan">
     </div>
-    <script>
+    <script src="script/regis.js"></script>
 
-        const fileUpload = document.getElementById('file-upload');
-        const fileChosen = document.getElementById('file-chosen');
-    
-        fileUpload.addEventListener('change', function() {
-            if (fileUpload.files.length > 0) {
-                fileChosen.textContent = fileUpload.files[0].name;
-            } else {
-                fileChosen.textContent = "No File Chosen";
-            }
-        });
-        const fileUpload = document.getElementById('file-upload');
-        const fileChosen = document.getElementById('file-chosen');
-
-        fileUpload.addEventListener('change', function() {
-            if (fileUpload.files.length > 0) {
-                fileChosen.textContent = fileUpload.files[0].name;
-            } else {
-                fileChosen.textContent = "Tidak Ada File yang Dipilih";
-            }
-        });
-
-        document.querySelector('form').addEventListener('submit', function(event) {
-            const password = document.getElementById('password').value;
-            const confirmPassword = document.getElementById('password_confirm').value;
-            const passwordError = document.getElementById('password-error');
-
-            if (password !== confirmPassword) {
-                event.preventDefault(); // Prevent form submission
-                passwordError.style.display = 'block'; // Show error message
-            } else {
-                passwordError.style.display = 'none'; // Hide error message if passwords match
-            }
-        });
-    </script>
 </body>
 </html>

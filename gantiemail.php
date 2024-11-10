@@ -20,8 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['kode'])) {
           </form>
           <script type='text/javascript'>
             document.getElementById('redirectForm').submit();
-          </script>";
-        
+          </script>"; 
     }else{
         $row = $result->fetch_assoc();
         $id = $row['id_pengguna'];
@@ -35,8 +34,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['kode'])) {
             <link rel=\"stylesheet\" href=\"style/verif.css\">
         </head>
         <body>
-
-            
             <form action=\"\" method=\"post\" class=\"verification-container\">
                 <!-- Gmail Logo -->
                 <img src=\"https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png\" alt=\"Gmail Logo\" class=\"gmail-logo\">

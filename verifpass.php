@@ -36,8 +36,8 @@ if(isset($_POST['email'])){
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'botmailrehan@gmail.com';
-        $mail->Password = 'nkhs xstj klcr egit';
+        $mail->Username = 'timpureacademy@gmail.com';
+        $mail->Password = 'robo wrmt yfec woyh';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
@@ -50,26 +50,7 @@ if(isset($_POST['email'])){
         $mail->send();
 
         
-    } else {
-        $mail = new PHPMailer(true);
-        $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'botmailrehan@gmail.com';
-        $mail->Password = 'nkhs xstj klcr egit';
-        $mail->SMTPSecure = 'ssl';
-        $mail->Port = 465;
-
-        $mail->setFrom('botmailrehan@gmail.com');
-        $mail->addAddress($email);
-
-        $mail->isHTML(true);
-        $mail->Subject = 'User Bleum Terdaftar';
-        $mail->Body = "Anda Belum Terdaftar Sebagai User";
-
-        $mail->send();
-        
-    }
+    } 
 
     $stmt->close();
 }
